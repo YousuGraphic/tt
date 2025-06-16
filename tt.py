@@ -4,7 +4,7 @@ import os
 import time
 from flask import Flask, request
 
-TOKEN = '8047447672:AAE6xtDMxrFfmD6Cl7jkEAYIfLsyLiKC1xE'
+TOKEN = '8047447672:AAFJU3PuCG3bK2W9cbmhJ7Vb37nUfMKqrbU'
 WEBHOOK_URL = 'https://tt.onrender.com/'  # رابط تطبيقك
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
